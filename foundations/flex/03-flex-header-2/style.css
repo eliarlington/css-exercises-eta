@@ -12,6 +12,10 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  margin: 16px;
+  padding: 5px;
+  align-items: center;
 }
 
 .profile-image {
@@ -19,7 +23,7 @@ body {
   box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
   border-radius: 50%;
   width: 48px;
-  height: 48px;
+  height: 48px
 }
 
 .logo {
@@ -27,6 +31,15 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+
+.links {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 12px;
+  padding: 8px;
 }
 
 button {
@@ -35,6 +48,7 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  margin: 8px;
 }
 
 a {
@@ -45,4 +59,7 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  /*might be able to remove this flex and put some else*/
+  gap: 8px;
 }
